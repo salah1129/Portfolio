@@ -1,0 +1,205 @@
+* {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: cursive;
+}
+
+.header {
+  height: 10vh;
+  padding: 0 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header .logo {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+.header .contact {
+  display: flex;
+}
+.contact div {
+  margin-left: 16px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.contact div:hover {
+  transform: scale(1.05);
+}
+.cover {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 160px;
+}
+.cover div {
+  width: 100%;
+  padding-left: 120px;
+}
+.cover div h2 {
+  margin-bottom: 8px;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cover div button {
+  background-color: white;
+  color: #333;
+  padding: 7px 14px;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.cover div button:hover {
+  opacity: 0.9;
+}
+.cover img {
+  border-radius: 50%;
+}
+.about {
+  padding: 0 160px;
+}
+
+/* projects */
+h1 {
+  text-align: center;
+  margin: 30px 0;
+}
+.projects {
+  background-color: #333;
+  color: white;
+  padding: 20px 160px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.projects .project {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(3, 3, 3, 0.05) 0px 5px 10px;
+  position: relative;
+  transition: 0.3s;
+  padding-bottom: 46px;
+}
+.projects .project:hover {
+  transform: scale(1.06);
+}
+.project .informations {
+  padding: 0 10px;
+}
+.project video {
+  width: 100%;
+  height: auto;
+}
+.project h2 {
+  margin: 16px 0;
+}
+.project p {
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+.project .code {
+  display: flex;
+  position: absolute;
+  bottom: 16px;
+  left: 30px;
+}
+.project .code div a {
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: white;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.project .code div a:hover {
+  opacity: 0.9;
+}
+
+/* skills */
+.skills {
+  padding: 0 160px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.skills img {
+  height: 100px;
+  width: 160px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(3, 3, 3, 0.05) 0px 5px 10px;
+}
+
+.thanks {
+  margin: 60px 0;
+}
+
+/* responsive */
+@media (max-width: 1200px) {
+  .header {
+    padding: 0 80px;
+  }
+  .cover {
+    padding: 0 80px;
+  }
+  .about, .projects, .skills {
+    padding: 0 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 40px;
+  }
+  .cover {
+    padding: 0 40px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+  }
+  .cover div {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+  .cover img {
+    width: 300px;
+    height: 300px;
+  }
+  .about, .projects, .skills {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 0 20px;
+  }
+  .cover {
+    padding: 0 20px;
+  }
+  .about, .projects, .skills {
+    padding: 0 20px;
+  }
+  .skills img {
+    height: 80px;
+    width: 120px;
+  }
+}
+
+
