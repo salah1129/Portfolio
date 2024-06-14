@@ -12,14 +12,14 @@ function App() {
     {
       name : "Site web e-commerce",
       description : "Plateforme e-commerce pour les pièces auto détachés, qui représente plusieurs fonctionalités notamment Présentation des catégories et des produits, la Gestion du panier, l'authentification des utilisateurs et la recherche de produits spécifiques",
-      link : "dalia.mp4",
+      link : "dalia-demo.mp4",
       codeFrontEnd: "https://github.com/salah1129/dalia-frontend/tree/master",
       codeBackEnd: "https://github.com/salah1129/dalia-backend/tree/master"
     },
     {
       name: "Site de films",
       description: "Plateforme de streaming de films qui propose une large sélection de films. Les fonctionnalités incluent la navigation par genres et catégories, la gestion des listes de visionnage et la recherche avancée de contenus",
-      link: "movie.mp4",
+      link: "movie-demo.mp4",
       codeFrontEnd: "https://github.com/salah1129/movies-frontend/tree/master",
       codeBackEnd: "https://github.com/salah1129/movies-backend/tree/master"
     }
